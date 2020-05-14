@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:text="Update Data"
+        android:fontFamily="@font/gotham"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#96ffffff"
+        android:theme="@style/EditScreenTextInputLayoutStyle"/>
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/calibri"
+        android:hint="ID Mahasiswa"
+        android:inputType="text|number"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="13dp" />
+
+        <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#96ffffff"
+        android:theme="@style/EditScreenTextInputLayoutStyle"/>
+    <EditText
+        android:id="@+id/editTextNama"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/calibri"
+        android:hint="Nama Mahasiswa"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="13dp" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#96ffffff"
+        android:theme="@style/EditScreenTextInputLayoutStyle"/>
+    <EditText
+        android:id="@+id/editTextJurusan"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/calibri"
+        android:hint="Jurusan"
+        android:inputType="textPersonName"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="13dp" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:textColorHint="#96ffffff"
+        android:theme="@style/EditScreenTextInputLayoutStyle"/>
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:drawablePadding="16dp"
+        android:fontFamily="@font/calibri"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="13dp" />
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:background="@drawable/buttonshapewhitebg"
+        android:textColor="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Mahasiswa"
+        android:id="@+id/buttonUpdate" />
+
+    </LinearLayout>
